@@ -41,10 +41,10 @@ a {
   width: 40px;
   height: 40px;
 }
-.layui-nav-img,
+/* .layui-nav-img,
 .text-avatar {
   display: none;
-}
+} */
 
 .text-avatar {
   display: inline-block;

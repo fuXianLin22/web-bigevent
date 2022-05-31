@@ -14,7 +14,7 @@ function getUserInfo() {
         // },
         success: res => {
             if (res.status !== 0) return
-            console.log(res);
+            // console.log(res);
             readerUserInfo(res.data)
         },
     })
