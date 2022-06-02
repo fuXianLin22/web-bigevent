@@ -43,3 +43,7 @@ $('#btnLogout').on('click', () => {
 })
 
 getUserInfo()
+// 文章页面跳转列表页面bug修复
+function change() {
+    $('#change').addClass('layui-this').siblings('dd').removeClass('layui-this')
+}
